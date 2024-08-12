@@ -1,0 +1,126 @@
+body{
+    margin:0;
+}
+.header{
+    background:#0a0b27;
+    width:100%;
+    height:70px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 2rem;
+}    
+.logo img{
+    height: 27px;
+}    
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 7px;
+    right: 58px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.left{
+    position: relative;
+    top: -4px;
+    width:50%;
+    background:black;
+    height:1000px;
+}
+.left img{
+    position: relative;
+    left: 360px;
+    top: 220px;
+    width: 195px;
+
+}
+.main-text{
+    position: absolute;
+    left: 7rem;
+    top: 24rem;
+    display: flex;
+    color: white;
+    font-family: -webkit-body;
+    left: 185px;
+    font-size: 42px;
+}
+
+.new{
+    color:#fff;
+    font-size: 100px;
+
+}
+.right{
+    position: relative;
+    top: -4px;
+    width:50%;
+    height:1000px;
+    background:#fff;
+
+}    
+
+.right-text{
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 14% 98px 76px 15%;
+    
+
+}
+.right-logo{
+    color:black;
+    font-family: sans-serif;
+    font-size: 30px;
+    position: absolute;
+    padding-left: 140px;
+    top: 635px;
+
+}
+section-1{
+    display: flex;
+}
+
+section-2{
+    position: sticky;
+    width: 100%;
+    display: flex;
+
+}
+.bottle img{
+    width:100%;
+    height:100%;
+}
+footer{
+    background:#fff;
+    width:100%;
+    height:250px;
+}
+.footer-text{
+    width: 100%;
+    justify-content: space-around;
+    color: #0a0b27;
+    font-family: sans-serif;
+    display: flex;
+    font-size: 14px;
+    top: 0px;
+    position: relative;
+    top: 25px;
+    left: -110px;
+}
+
+
+
+
